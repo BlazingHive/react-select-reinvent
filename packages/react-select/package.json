@@ -1,0 +1,29 @@
+{
+  "name": "react-select",
+  "version": "5.7.3",
+  "description": "A Select control built with and for ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yueleng/react-select-reinvent.git"
+  },
+  "keywords": [
+    "combobox",
+    "form",
+    "input",
+    "multiselect",
+    "react",
+    "react-component",
+    "select",
+    "ui"
+  ],
+  "author": "Jed Watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yueleng/react-select-reinvent/issues"
+  },
+  "homepage": "https://github.com/Yueleng/react-select-reinvent#readme"
+}
