@@ -1,0 +1,96 @@
+{
+  "name": "react-select-reinvent",
+  "version": "5.7.3",
+  "description": "A Select control built with and for ReactJS",
+  "main": "dist/react-select-reinvent.cjs.js",
+  "module": "dist/react-select-reinvent.esm.js",
+  "types": "dist/react-select-reinvent.cjs.d.ts",
+  "sideEffects": false,
+  "author": "Jed Watson - Alan Wang",
+  "license": "MIT",
+  "repository": "https://github.com/Yueleng/react-select-reinvent/tree/release%405.7.3/packages/react-select-reinvent",
+  "dependencies": {
+    "@babel/runtime": "^7.12.0",
+    "@emotion/cache": "^11.4.0",
+    "@emotion/react": "^11.8.1",
+    "@floating-ui/dom": "^1.0.1",
+    "@types/react-transition-group": "^4.4.0",
+    "memoize-one": "^6.0.0",
+    "prop-types": "^15.6.0",
+    "react-transition-group": "^4.3.0",
+    "use-isomorphic-layout-effect": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/jest-in-case": "^1.0.6",
+    "enzyme": "^3.8.0",
+    "enzyme-to-json": "^3.3.0",
+    "jest-in-case": "^1.0.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "files": [
+    "dist",
+    "base",
+    "animated",
+    "async",
+    "creatable",
+    "async-creatable"
+  ],
+  "keywords": [
+    "combobox",
+    "form",
+    "input",
+    "multiselect",
+    "react",
+    "react-component",
+    "select",
+    "ui"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts",
+      "base/index.ts",
+      "animated/index.ts",
+      "async/index.ts",
+      "creatable/index.ts",
+      "async-creatable/index.ts"
+    ]
+  },
+  "exports": {
+    ".": {
+      "module": "./dist/react-select-reinvent.esm.js",
+      "import": "./dist/react-select-reinvent.cjs.mjs",
+      "default": "./dist/react-select-reinvent.cjs.js"
+    },
+    "./base": {
+      "module": "./base/dist/react-select-reinvent-base.esm.js",
+      "import": "./base/dist/react-select-reinvent-base.cjs.mjs",
+      "default": "./base/dist/react-select-reinvent-base.cjs.js"
+    },
+    "./async": {
+      "module": "./async/dist/react-select-reinvent-async.esm.js",
+      "import": "./async/dist/react-select-reinvent-async.cjs.mjs",
+      "default": "./async/dist/react-select-reinvent-async.cjs.js"
+    },
+    "./animated": {
+      "module": "./animated/dist/react-select-reinvent-animated.esm.js",
+      "import": "./animated/dist/react-select-reinvent-animated.cjs.mjs",
+      "default": "./animated/dist/react-select-reinvent-animated.cjs.js"
+    },
+    "./creatable": {
+      "module": "./creatable/dist/react-select-reinvent-creatable.esm.js",
+      "import": "./creatable/dist/react-select-reinvent-creatable.cjs.mjs",
+      "default": "./creatable/dist/react-select-reinvent-creatable.cjs.js"
+    },
+    "./async-creatable": {
+      "module": "./async-creatable/dist/react-select-reinvent-async-creatable.esm.js",
+      "import": "./async-creatable/dist/react-select-reinvent-async-creatable.cjs.mjs",
+      "default": "./async-creatable/dist/react-select-reinvent-async-creatable.cjs.js"
+    },
+    "./package.json": "./package.json"
+  }
+}

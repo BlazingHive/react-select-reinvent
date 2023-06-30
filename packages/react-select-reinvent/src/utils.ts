@@ -281,8 +281,8 @@ export function animatedScrollTo(
   const increment = 10;
   let currentTime = 0;
 
-  // there is an issue for this function:
-  // How do we know that the increment = 10 (let's assume 10 miliseconds) equals to each loop's
+  // TODO: there is an issue for this function:
+  // How do we know that the increment = 10 (let's assume 10 miliseconds) equals to each loop's real
   // execution time. if it happens to be the same (or similar), then duration 200 really means 200 miliseconds
   // otherwise the duration is just a number (of course larger number means the animation will spend more time)
   function animateScroll() {
@@ -419,6 +419,7 @@ if (w.addEventListener && w.removeEventListener) {
 
 export const supportsPassiveEvents: boolean = passiveOptionAccessed;
 
+// not null && not undefined (is this a good impl, since we are using `!=`)
 export function notNullish<T>(item: T | null | undefined): item is T {
   return item != null;
 }
