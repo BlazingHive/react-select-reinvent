@@ -37,7 +37,7 @@ export type OnChangeValue<
   IsMulti extends boolean
 > = IsMulti extends true ? MultiValue<Option> : SingleValue<Option>;
 
-// colors def
+// def of a set of colors: one color scheme
 export interface Colors {
   primary: string;
   primary75: string;
@@ -126,7 +126,7 @@ export interface CommonProps<
   hasValue: boolean;
   // is this Select multi-select
   isMulti: boolean;
-  // ??
+  // ?? Is the select direction right-to-left
   isRtl: boolean;
   // Array of Option || Array of Group depends on if this Select is grouped Select
   options: OptionsOrGroups<Option, Group>;
