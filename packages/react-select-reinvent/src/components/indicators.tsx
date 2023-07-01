@@ -73,7 +73,7 @@ export interface DropdownIndicatorProps<
   isDisabled: boolean;
 }
 
-// base CSS settings for either Dowpdown Indicator or Clear Indicator
+// base CSS settings for either Dowpdown Indicator or Clear Indicator based on params
 const baseCSS = <
   Option,
   IsMulti extends boolean,
