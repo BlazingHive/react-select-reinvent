@@ -71,6 +71,7 @@ export default function useStateManager<
     propsValue !== undefined ? propsValue : defaultValue
   );
 
+  // on change callback
   const onChange = useCallback(
     (value: OnChangeValue<Option, IsMulti>, actionMeta: ActionMeta<Option>) => {
       if (typeof propsOnChange === "function") {
@@ -80,6 +81,8 @@ export default function useStateManager<
     },
     [propsOnChange]
   );
+
+  // on input change callback
   const onInputChange = useCallback(
     (value: string, actionMeta: InputActionMeta) => {
       let newValue;
@@ -90,12 +93,16 @@ export default function useStateManager<
     },
     [propsOnInputChange]
   );
+
+  // on menu open callback
   const onMenuOpen = useCallback(() => {
     if (typeof propsOnMenuOpen === "function") {
       propsOnMenuOpen();
     }
     setStateMenuIsOpen(true);
   }, [propsOnMenuOpen]);
+
+  // on menu close callback
   const onMenuClose = useCallback(() => {
     if (typeof propsOnMenuClose === "function") {
       propsOnMenuClose();
