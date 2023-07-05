@@ -66,7 +66,7 @@ export interface ThemeSpacing {
   baseUnit: number;
   // ??
   controlHeight: number;
-  // space between menu container left border and menu
+  // margin top / bottom space of menu
   menuGutter: number;
 }
 
@@ -246,7 +246,7 @@ export interface InputActionMeta {
 // menu placement
 export type MenuPlacement = "auto" | "bottom" | "top";
 
-// menu open up or down
+// menu open up or down (coerced! thus only bottom or top)
 export type CoercedMenuPlacement = "bottom" | "top";
 
 // menu position
