@@ -72,7 +72,14 @@ const useIsMultiValueContainer = ({
     if (isMulti && React.isValidElement(child)) {
       // Add onExited callback to MultiValues
       if (child.type === components.MultiValue) {
-        return React.cloneElement(child, { onExited });
+        return React.cloneElement(
+          child as ReactElement<{
+            onExited: () => void;
+          }>,
+          {
+            onExited,
+          }
+        );
       }
       // While container flexed, Input cursor is shown after Placeholder text,
       // so remove Placeholder until display is set back to grid
