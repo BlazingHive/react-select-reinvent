@@ -1,0 +1,5 @@
+{
+  "main": "dist/react-select-reinvent-async.cjs.js",
+  "module": "dist/react-select-reinvent-async.esm.js",
+  "types": "dist/react-select-reinvent-async.cjs.d.ts"
+}
