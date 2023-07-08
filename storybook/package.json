@@ -8,7 +8,7 @@
     "dev": "start-storybook -p 6006"
   },
   "dependencies": {
-    "@atlaskit/button": "^15.1.4",
+    "@atlaskit/button": "^16.8.1",
     "@atlaskit/icon": "^11.0.1",
     "@atlaskit/modal-dialog": "^11.2.5",
     "@atlaskit/tooltip": "^17.1.2",
