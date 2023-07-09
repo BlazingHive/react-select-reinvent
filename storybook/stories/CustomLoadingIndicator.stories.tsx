@@ -2,8 +2,8 @@ import Spinner from "@atlaskit/spinner";
 import Tooltip from "@atlaskit/tooltip";
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import { LoadingIndicatorProps } from "react-select-reinvent";
-import AsyncSelect from "react-select-reinvent/async";
+import { LoadingIndicatorProps } from "../../packages/react-select-reinvent";
+import AsyncSelect from "../../packages/react-select-reinvent/async";
 import { Field } from "../components";
 import { ColourOption, colourOptions } from "../data";
 

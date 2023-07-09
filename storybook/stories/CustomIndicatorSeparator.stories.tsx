@@ -1,6 +1,8 @@
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select, { IndicatorSeparatorProps } from "react-select-reinvent";
+import Select, {
+  IndicatorSeparatorProps,
+} from "../../packages/react-select-reinvent";
 
 import { Field } from "../components";
 import { ColourOption, colourOptions } from "../data";

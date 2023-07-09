@@ -6,7 +6,7 @@ import Select, {
   defaultTheme,
   MenuPlacement,
   StylesConfig,
-} from "react-select-reinvent";
+} from "../../packages/react-select-reinvent";
 
 import { ChevronDown, Field, Inline, Stack } from "../components";
 import { ColourOption, colourOptions } from "../data";

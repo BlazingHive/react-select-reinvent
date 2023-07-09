@@ -1,10 +1,10 @@
 {
-  "name": "react-select-reinvent",
-  "version": "5.7.3",
+  "name": "@blazing_hive_digital/react-select-reinvent",
+  "version": "5.7.4",
   "description": "A Select control built with and for ReactJS",
-  "main": "dist/react-select-reinvent.cjs.js",
-  "module": "dist/react-select-reinvent.esm.js",
-  "types": "dist/react-select-reinvent.cjs.d.ts",
+  "main": "dist/blazing_hive_digital-react-select-reinvent.cjs.js",
+  "module": "dist/blazing_hive_digital-react-select-reinvent.esm.js",
+  "types": "dist/blazing_hive_digital-react-select-reinvent.cjs.d.ts",
   "sideEffects": false,
   "author": "Jed Watson - Alan Wang",
   "license": "MIT",
@@ -63,34 +63,34 @@
   },
   "exports": {
     ".": {
-      "module": "./dist/react-select-reinvent.esm.js",
-      "import": "./dist/react-select-reinvent.cjs.mjs",
-      "default": "./dist/react-select-reinvent.cjs.js"
+      "module": "./dist/blazing_hive_digital-react-select-reinvent.esm.js",
+      "import": "./dist/blazing_hive_digital-react-select-reinvent.cjs.mjs",
+      "default": "./dist/blazing_hive_digital-react-select-reinvent.cjs.js"
     },
     "./base": {
-      "module": "./base/dist/react-select-reinvent-base.esm.js",
-      "import": "./base/dist/react-select-reinvent-base.cjs.mjs",
-      "default": "./base/dist/react-select-reinvent-base.cjs.js"
+      "module": "./base/dist/blazing_hive_digital-react-select-reinvent-base.esm.js",
+      "import": "./base/dist/blazing_hive_digital-react-select-reinvent-base.cjs.mjs",
+      "default": "./base/dist/blazing_hive_digital-react-select-reinvent-base.cjs.js"
     },
     "./async": {
-      "module": "./async/dist/react-select-reinvent-async.esm.js",
-      "import": "./async/dist/react-select-reinvent-async.cjs.mjs",
-      "default": "./async/dist/react-select-reinvent-async.cjs.js"
+      "module": "./async/dist/blazing_hive_digital-react-select-reinvent-async.esm.js",
+      "import": "./async/dist/blazing_hive_digital-react-select-reinvent-async.cjs.mjs",
+      "default": "./async/dist/blazing_hive_digital-react-select-reinvent-async.cjs.js"
     },
     "./animated": {
-      "module": "./animated/dist/react-select-reinvent-animated.esm.js",
-      "import": "./animated/dist/react-select-reinvent-animated.cjs.mjs",
-      "default": "./animated/dist/react-select-reinvent-animated.cjs.js"
+      "module": "./animated/dist/blazing_hive_digital-react-select-reinvent-animated.esm.js",
+      "import": "./animated/dist/blazing_hive_digital-react-select-reinvent-animated.cjs.mjs",
+      "default": "./animated/dist/blazing_hive_digital-react-select-reinvent-animated.cjs.js"
     },
     "./creatable": {
-      "module": "./creatable/dist/react-select-reinvent-creatable.esm.js",
-      "import": "./creatable/dist/react-select-reinvent-creatable.cjs.mjs",
-      "default": "./creatable/dist/react-select-reinvent-creatable.cjs.js"
+      "module": "./creatable/dist/blazing_hive_digital-react-select-reinvent-creatable.esm.js",
+      "import": "./creatable/dist/blazing_hive_digital-react-select-reinvent-creatable.cjs.mjs",
+      "default": "./creatable/dist/blazing_hive_digital-react-select-reinvent-creatable.cjs.js"
     },
     "./async-creatable": {
-      "module": "./async-creatable/dist/react-select-reinvent-async-creatable.esm.js",
-      "import": "./async-creatable/dist/react-select-reinvent-async-creatable.cjs.mjs",
-      "default": "./async-creatable/dist/react-select-reinvent-async-creatable.cjs.js"
+      "module": "./async-creatable/dist/blazing_hive_digital-react-select-reinvent-async-creatable.esm.js",
+      "import": "./async-creatable/dist/blazing_hive_digital-react-select-reinvent-async-creatable.cjs.mjs",
+      "default": "./async-creatable/dist/blazing_hive_digital-react-select-reinvent-async-creatable.cjs.js"
     },
     "./package.json": "./package.json"
   }

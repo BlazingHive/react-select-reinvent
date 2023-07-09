@@ -1,6 +1,6 @@
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select from "react-select-reinvent";
+import Select from "../../packages/react-select-reinvent";
 
 import { Field } from "../components";
 import { flavourOptions } from "../data";

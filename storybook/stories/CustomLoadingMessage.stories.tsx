@@ -1,8 +1,11 @@
 import Tooltip from "@atlaskit/tooltip";
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import { NoticeProps, StylesConfig } from "react-select-reinvent";
-import AsyncSelect from "react-select-reinvent/async";
+import {
+  NoticeProps,
+  StylesConfig,
+} from "../../packages/react-select-reinvent";
+import AsyncSelect from "../../packages/react-select-reinvent/async";
 import { Field } from "../components";
 
 import { ColourOption, colourOptions } from "../data";

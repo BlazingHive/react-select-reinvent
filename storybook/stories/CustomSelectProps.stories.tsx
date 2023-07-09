@@ -5,7 +5,7 @@ import Select, {
   ControlProps,
   Props,
   StylesConfig,
-} from "react-select-reinvent";
+} from "../../packages/react-select-reinvent";
 import { Field } from "../components";
 import { ColourOption, colourOptions, EMOJIS } from "../data";
 

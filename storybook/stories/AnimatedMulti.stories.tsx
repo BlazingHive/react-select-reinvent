@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import * as React from "react";
-import Select from "react-select-reinvent";
-import makeAnimated from "react-select-reinvent/animated";
+import Select from "../../packages/react-select-reinvent";
+import makeAnimated from "../../packages/react-select-reinvent/animated";
 
 import { Field } from "../components";
 import { colourOptions, defaultArgs } from "../data";

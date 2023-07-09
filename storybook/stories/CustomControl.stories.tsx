@@ -1,6 +1,9 @@
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select, { components, ControlProps } from "react-select-reinvent";
+import Select, {
+  components,
+  ControlProps,
+} from "../../packages/react-select-reinvent";
 
 import { Field } from "../components";
 import { ColourOption, colourOptions } from "../data";

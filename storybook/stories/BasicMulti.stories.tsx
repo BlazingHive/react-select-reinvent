@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import * as React from "react";
-import Select from "react-select-reinvent";
+import Select from "../../packages/react-select-reinvent";
 
 import { Field } from "../components";
 import { colourOptions, defaultArgs } from "../data";

@@ -1,7 +1,7 @@
 import type { ComponentMeta } from "@storybook/react";
 import chroma from "chroma-js";
 import * as React from "react";
-import Select, { StylesConfig } from "react-select";
+import Select, { StylesConfig } from "../../packages/react-select-reinvent";
 
 import { Field } from "../components";
 import { ColourOption, colourOptions } from "../data";

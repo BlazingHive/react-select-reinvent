@@ -1,6 +1,6 @@
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select, { createFilter } from "react-select-reinvent";
+import Select, { createFilter } from "../../packages/react-select-reinvent";
 import { Field, Inline, Stack } from "../components";
 import { colourOptions } from "../data";
 

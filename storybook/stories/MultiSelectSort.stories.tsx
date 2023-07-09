@@ -6,7 +6,7 @@ import Select, {
   MultiValueProps,
   OnChangeValue,
   Props,
-} from "react-select-reinvent";
+} from "../../packages/react-select-reinvent";
 import {
   SortableContainer,
   SortableContainerProps,

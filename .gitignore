@@ -43,3 +43,5 @@ package-lock.json
 .NOTES.md
 
 magical-types
+
+.npmrc

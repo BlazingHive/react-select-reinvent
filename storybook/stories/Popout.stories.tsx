@@ -1,7 +1,10 @@
 import Button from "@atlaskit/button/standard-button";
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select, { defaultTheme, StylesConfig } from "react-select-reinvent";
+import Select, {
+  defaultTheme,
+  StylesConfig,
+} from "../../packages/react-select-reinvent";
 
 import { ChevronDown, Svg } from "../components";
 import { StateOption, stateOptions } from "../data";

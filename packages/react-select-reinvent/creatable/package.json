@@ -1,5 +1,5 @@
 {
-  "main": "dist/react-select-reinvent-creatable.cjs.js",
-  "module": "dist/react-select-reinvent-creatable.esm.js",
-  "types": "dist/react-select-reinvent-creatable.cjs.d.ts"
+  "main": "dist/blazing_hive_digital-react-select-reinvent-creatable.cjs.js",
+  "module": "dist/blazing_hive_digital-react-select-reinvent-creatable.esm.js",
+  "types": "dist/blazing_hive_digital-react-select-reinvent-creatable.cjs.d.ts"
 }

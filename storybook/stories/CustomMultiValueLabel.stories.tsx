@@ -5,7 +5,7 @@ import Select, {
   components,
   MultiValueGenericProps,
   StylesConfig,
-} from "react-select-reinvent";
+} from "../../packages/react-select-reinvent";
 
 import { Field } from "../components";
 import { ColourOption, colourOptions } from "../data";

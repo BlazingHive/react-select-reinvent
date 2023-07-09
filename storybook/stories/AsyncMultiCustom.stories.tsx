@@ -5,17 +5,16 @@ import AsyncSelect from "../../packages/react-select-reinvent/async";
 import { Field } from "../components";
 import { ColourOption, colourOptions } from "../data";
 
-export default {
-  title: "Select/AsyncPromises",
-  component: AsyncSelect,
-  argTypes: {},
-} as ComponentMeta<typeof AsyncSelect>;
-
-export function AsyncPromises() {
+export function AsyncMultiCustom() {
   return (
-    <Field label="Async Promises" htmlFor="async-promises">
+    <Field
+      label="Async Multi Custom"
+      htmlFor="async-multi-custom-id"
+      secondaryLabel="Async Select swith loading options"
+    >
       <AsyncSelect
-        inputId="async-promises"
+        inputId="async-multi-custom-id"
+        isMulti
         cacheOptions
         defaultOptions
         loadOptions={promiseOptions}
@@ -24,20 +23,22 @@ export function AsyncPromises() {
   );
 }
 
-// =============================================================================
-// Utils
-// =============================================================================
-
-function filterColors(inputValue: string) {
+const filterColors = (inputValue: string) => {
   return colourOptions.filter((i) =>
     i.label.toLowerCase().includes(inputValue.toLowerCase())
   );
-}
+};
 
-function promiseOptions(inputValue: string) {
+// a mock api call to get values from backend
+const promiseOptions = (inputValue: string) => {
   return new Promise<ColourOption[]>((resolve) => {
     setTimeout(() => {
       resolve(filterColors(inputValue));
-    }, 1000);
+    }, 2000);
   });
-}
+};
+
+export default {
+  title: "Select/AsyncMultiCustom",
+  component: AsyncSelect,
+} as ComponentMeta<typeof AsyncSelect>;

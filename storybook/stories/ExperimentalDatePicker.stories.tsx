@@ -9,7 +9,7 @@ import Select, {
   components as SelectComponents,
   GroupProps,
   OptionProps,
-} from "react-select-reinvent";
+} from "../../packages/react-select-reinvent";
 import { Field } from "../components";
 
 export default {

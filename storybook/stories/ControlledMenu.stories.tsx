@@ -1,6 +1,6 @@
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select, { SelectInstance, StylesConfig } from "react-select-reinvent";
+import Select, { SelectInstance, StylesConfig } from "../../packages/react-select-reinvent";
 
 import { Field, Inline, Stack } from "../components";
 import { ColourOption, colourOptions } from "../data";

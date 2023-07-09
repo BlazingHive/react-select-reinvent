@@ -7,8 +7,8 @@ import type {
   GroupBase,
   OptionProps,
   ValueContainerProps,
-} from "react-select-reinvent";
-import Select, { components } from "react-select-reinvent";
+} from "../../packages/react-select-reinvent";
+import Select, { components } from "../../packages/react-select-reinvent";
 import { omit } from "remeda";
 
 import { Field } from "../components";

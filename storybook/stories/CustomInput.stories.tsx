@@ -1,7 +1,10 @@
 import Tooltip from "@atlaskit/tooltip";
 import { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select, { components, InputProps } from "react-select-reinvent";
+import Select, {
+  components,
+  InputProps,
+} from "../../packages/react-select-reinvent";
 
 import { Field } from "../components";
 import { ColourOption, colourOptions } from "../data";

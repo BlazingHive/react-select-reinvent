@@ -6,7 +6,7 @@ import Select, {
   components,
   MultiValueRemoveProps,
   StylesConfig,
-} from "react-select-reinvent";
+} from "../../packages/react-select-reinvent";
 import { ColourOption, colourOptions } from "../data";
 import { Field } from "../components";
 

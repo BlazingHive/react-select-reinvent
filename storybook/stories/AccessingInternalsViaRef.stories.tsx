@@ -1,9 +1,9 @@
 import Button from "@atlaskit/button/standard-button";
 import type { ComponentMeta } from "@storybook/react";
 import React, { useRef } from "react";
-import Select, { SelectInstance } from "react-select-reinvent";
-import AsyncSelect from "react-select-reinvent/async";
-import CreatableSelect from "react-select-reinvent/creatable";
+import Select, { SelectInstance } from "../../packages/react-select-reinvent";
+import AsyncSelect from "../../packages/react-select-reinvent/async";
+import CreatableSelect from "../../packages/react-select-reinvent/creatable";
 
 import { Field, Inline, Stack } from "../components";
 import { ColourOption, colourOptions } from "../data";

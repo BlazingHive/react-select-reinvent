@@ -1,6 +1,6 @@
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import AsyncCreatableSelect from "react-select-reinvent/async-creatable";
+import AsyncCreatableSelect from "../../packages/react-select-reinvent/async-creatable";
 
 import { Field } from "../components";
 import { ColourOption, colourOptions } from "../data";

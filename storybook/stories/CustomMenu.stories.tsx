@@ -1,6 +1,9 @@
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select, { components, MenuProps } from "react-select-reinvent";
+import Select, {
+  components,
+  MenuProps,
+} from "../../packages/react-select-reinvent";
 
 import { Field } from "../components";
 import {

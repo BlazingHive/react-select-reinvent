@@ -1,6 +1,6 @@
 import type { ComponentMeta } from "@storybook/react";
 import * as React from "react";
-import Select, { AriaOnFocus } from "react-select-reinvent";
+import Select, { AriaOnFocus } from "../../packages/react-select-reinvent";
 import { ColourOption, colourOptions } from "../data";
 
 export default {
