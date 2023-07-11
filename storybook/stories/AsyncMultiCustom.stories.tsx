@@ -10,7 +10,7 @@ export function AsyncMultiCustom() {
     <Field
       label="Async Multi Custom"
       htmlFor="async-multi-custom-id"
-      secondaryLabel="Async Select swith loading options"
+      secondaryLabel="Async Select with loading options and multi selection support"
     >
       <AsyncSelect
         inputId="async-multi-custom-id"

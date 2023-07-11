@@ -84,7 +84,8 @@
     "test:cypress:watch": "node ./node_modules/.bin/cypress open",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "yarn build && changeset publish"
+    "release": "yarn build && changeset publish",
+    "dev": "cd storybook && yarn dev"
   },
   "files": [
     "dist",
